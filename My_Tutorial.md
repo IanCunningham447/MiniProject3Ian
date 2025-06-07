@@ -83,7 +83,7 @@ For more precise readings, you can calibrate your circuit:
 ```arduino
 // Define your own thresholds based on your environment
 const int darkThreshold = 200;
-```
+
 const int brightThreshold = 800;
 
 void loop() {
@@ -101,7 +101,7 @@ void loop() {
 
   delay(500);
 }
-
+```
 Here is the output that the serial monitor displays when uploading the code to the arduino. The light value ranges from 0 - 1023.
 ![image](https://github.com/user-attachments/assets/03e509e4-56d4-417a-b270-82ad2000f122)
 
