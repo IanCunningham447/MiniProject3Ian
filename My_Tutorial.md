@@ -28,6 +28,7 @@ In this tutorial, you will learn how to create a simple light-detecting circuit 
 3. Connect the other leg of the 10kΩ resistor to the GND pin of the Arduino.
 
 ![Photoresistor](https://github.com/user-attachments/assets/44480828-628e-4d61-83bb-4e47dc0be576)
+![IMG_7298](https://github.com/user-attachments/assets/8cb16190-a2e5-4cc5-8f12-165be0fe3901)
 
 This creates a voltage divider circuit where the voltage at A0 will change based on the light level.
 
@@ -48,7 +49,7 @@ The 10kΩ resistor forms a voltage divider with the photoresistor:
 const int ldrPin = A0;
 
 void setup() {
-```
+
 // Start serial communication
   Serial.begin(9600);
 }
@@ -64,6 +65,7 @@ void loop() {
   // Wait for a short while before reading again
   delay(500);
 }
+```
 
 ### 4. Test the Circuit
 
@@ -102,7 +104,6 @@ void loop() {
 }
 
 Here is the output that the serial monitor displays when uploading the code to the arduino. The light value ranges from 0 - 1023.
-![IMG_7298](https://github.com/user-attachments/assets/8cb16190-a2e5-4cc5-8f12-165be0fe3901)
 
 ## Applications
 
