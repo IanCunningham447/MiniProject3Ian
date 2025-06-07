@@ -10,3 +10,5 @@ Welcome to the *wonderful world* of Markdown. Whether you're writing notes, docu
 > "The journey of a thousand lines begins with a single `#`." – Markdown Proverb
 
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+![image](https://github.com/user-attachments/assets/03e509e4-56d4-417a-b270-82ad2000f122)
