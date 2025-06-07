@@ -27,6 +27,8 @@ In this tutorial, you will learn how to create a simple light-detecting circuit 
    - One leg of the 10kΩ resistor
 3. Connect the other leg of the 10kΩ resistor to the GND pin of the Arduino.
 
+![Photoresistor](https://github.com/user-attachments/assets/44480828-628e-4d61-83bb-4e47dc0be576)
+
 This creates a voltage divider circuit where the voltage at A0 will change based on the light level.
 
 ### 2. Understanding the Circuit
@@ -99,6 +101,9 @@ void loop() {
   delay(500);
 }
 
+Here is the output that the serial monitor displays when uploading the code to the arduino. The light value ranges from 0 - 1023.
+![IMG_7298](https://github.com/user-attachments/assets/8cb16190-a2e5-4cc5-8f12-165be0fe3901)
+
 ## Applications
 
 This basic circuit can be used for:
@@ -113,7 +118,7 @@ This basic circuit can be used for:
    - Check connections
    - Make sure the photoresistor is not damaged (check resistance with a multimeter)
 
-   2. **Values stuck at 0 or 1023**:
+2. **Values stuck at 0 or 1023**:
    - Check for short circuits or open connections
    - Make sure resistor value is correct (10kΩ)
 
@@ -128,13 +133,12 @@ You can combine this with other components like:
 - A relay to turn on/off lights automatically
 - An LCD display to show light levels
 
-Do you want me to clarify any part of this tutorial or provide additional circuit examples?
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
 
 ![image](https://github.com/user-attachments/assets/03e509e4-56d4-417a-b270-82ad2000f122)
 
 
-![IMG_7298](https://github.com/user-attachments/assets/8cb16190-a2e5-4cc5-8f12-165be0fe3901)
 
 
-![Photoresistor](https://github.com/user-attachments/assets/44480828-628e-4d61-83bb-4e47dc0be576)
+
+
