@@ -1,4 +1,4 @@
-title: # Arduino Photoresistor Circuit Tutorial
+title: Arduino Photoresistor Circuit Tutorial
 date: 2025-06-06
 author:
   - name: Ian Cunningham
