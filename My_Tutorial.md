@@ -1,4 +1,7 @@
-# Arduino Photoresistor Circuit Tutorial
+title: # Arduino Photoresistor Circuit Tutorial
+date: 2025-06-06
+author:
+  - name: Ian Cunningham
 
 In this tutorial, you will learn how to create a simple light-detecting circuit using a photoresistor (LDR) and an Arduino Uno Mini. The circuit will allow your Arduino to detect light in its surroundings.
 
@@ -19,7 +22,7 @@ In this tutorial, you will learn how to create a simple light-detecting circuit 
 
 ## Step-by-Step Instructions
 
-### 1. Connect the Components
+### 1. Connect all of the Components
 
 1. Connect one leg of the photoresistor to the 5V pin of the Arduino.
 2. Connect the other leg of the photoresistor to:
