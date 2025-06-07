@@ -12,10 +12,10 @@ In this tutorial, you will learn how to create a simple light-detecting circuit 
 
 ## Circuit Diagram
 
-```
+
 ![5V](https://github.com/user-attachments/assets/9dab49e0-b71d-436f-8d13-933a10ff388f)
 
-```
+
 
 ## Step-by-Step Instructions
 
